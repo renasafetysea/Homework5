@@ -69,10 +69,10 @@ public class Main {
             System.out.print(array1[i]);
                 if (i !=array1.length - 1) {
 
-                }
-                System.out.print(", ");
-            }
+                    System.out.print(", ");
 
+                }
         }
 
     }
+}
