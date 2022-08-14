@@ -62,15 +62,17 @@ public class Main {
         // task 4
 
         for (int i = 0; i < array1.length; i++) {
-            if (array1 [i] % 2 == 1){
-                array1 [i]++;
-                System.out.print(array1[i]);
-                if (i !=array1.length - 1) {
-                    System.out.print(", ");
-                }
+            if (array1 [i] % 2 == 1) {
+                array1[i]++;
             }
-            
+
+            System.out.print(array1[i]);
+                if (i !=array1.length - 1) {
+
+                }
+                System.out.print(", ");
+            }
+
         }
 
     }
-}
